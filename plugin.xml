@@ -112,7 +112,6 @@
          <framework src="CoreGraphics.framework" />
          <framework src="AssetsLibrary.framework" />
          <framework src="MobileCoreServices.framework" />
-         <framework src="CoreGraphics.framework" />
          <framework src="AVFoundation.framework" />
 
      </platform>
