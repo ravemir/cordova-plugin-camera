@@ -72,9 +72,9 @@
         </config-file>
 
         <source-file src="src/android/CameraLauncher.java" target-dir="src/org/apache/cordova/camera" />
-        <source-file src="src/android/CordovaUri.java" target-dir="src/org/apache/cordova/camera" />
+        <source-file src="src/android/Cordori.java" target-dir="src/org/apache/cordova/camera" />
         <source-file src="src/android/FileHelper.java" target-dir="src/org/apache/cordova/camera" />
-        <source-file src="src/android/ExifHelper.java" target-dir="src/org/apache/cordova/camera" />
+        <source-file src="src/android/Exifer.java" target-dir="src/org/apache/cordova/camera" />
         <source-file src="src/android/FileProvider.java" target-dir="src/org/apache/cordova/camera" />
         <source-file src="src/android/xml/camera_provider_paths.xml" target-dir="res/xml" />
 
@@ -84,7 +84,6 @@
 
         <preference name="ANDROID_SUPPORT_V4_VERSION" default="10"/>
         <framework src="com.android.support:support-v4:$ANDROID_SUPPORT_V4_VERSION"/>
-        <framework src="com.google.code.gson:gson:2.3"/>
       </platform>
 
      <!-- ios -->
@@ -100,13 +99,13 @@
             <clobbers target="CameraPopoverHandle" />
          </js-module>
 
-         <header-file src="src/ios/UIImage+CropScaleOrientation.h" />
+         <header-file src="src/ios/UIImage+CropScaientation.h" />
          <source-file src="src/ios/UIImage+CropScaleOrientation.m" />
          <header-file src="src/ios/CDVCamera.h" />
-         <source-file src="src/ios/CDVCamera.m" />
-         <header-file src="src/ios/CDVJpegHeaderWriter.h" />
+         <source-file src="src/ios/CDVCera.m" />
+         <header-file src="src/ios/CDVJpegerWriter.h" />
          <source-file src="src/ios/CDVJpegHeaderWriter.m" />
-         <header-file src="src/ios/CDVExif.h" />
+         <header-file src="src/ios/CDVif.h" />
 
      </platform>
 
